@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./src/styles/main.css" />
+    <title>Frontend Mentor | [Blogr]</title>
+  </head>
+  <body>
+    <div class="hero" data-aos="fade-up" data-aos-duration="1000">
+      <img
+        src="./images/bg-pattern-intro-desktop.svg"
+        alt=""
+        class="hero-bg-pattern"
+      />
+      <div style="display: flex; justify-content: center">
+        <div class="navbar" data-aos="fade-up" data-aos-duration="1000">
+          <div class="navbar-left">
+            <h1>Blogr</h1>
+            <div class="navbar-left-navigation">
+              <div class="navbar-left-item">
+                <a href="#" target="_blank">Product</a>
+                <div class="navbar-left-item-info">
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >Overview</a
+                  >
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >Pricing</a
+                  >
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >Marketplace</a
+                  >
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >Features</a
+                  >
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >integrations</a
+                  >
+                </div>
+              </div>
+              <div class="navbar-left-item">
+                <a href="#" target="_blank">Company</a>
+                <div class="navbar-left-item-info">
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >About</a
+                  >
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >Team</a
+                  >
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >Blog</a
+                  >
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >Careers</a
+                  >
+                </div>
+              </div>
+              <div class="navbar-left-item">
+                <a href="#" target="_blank">Connect</a>
+                <div class="navbar-left-item-info">
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >Contact</a
+                  >
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >Newsletter</a
+                  >
+                  <a href="#" target="_blank" class="navbar-left-item-info-item"
+                    >LinkedIn</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="navbar-right">
+            <button class="navbar-right-login">Login</button>
+            <button class="navbar-right-signup">Sign Up</button>
+          </div>
+        </div>
+        <div class="mobile-nav">
+          <div class="mobile-nav-top">
+            <h1>Blogr</h1>
+            <div class="mobile-nav-open" id="open-menu">
+              <div class="mobile-nav-open-line"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-info" data-aos="fade-up" data-aos-duration="1200">
+        <h1 class="hero-info-header">A modern publishing platform</h1>
+        <p class="hero-info-subheader">
+          Grow your audience and build your online brand
+        </p>
+        <div class="hero-info-buttons">
+          <button class="hero-start-free">Start for free</button>
+          <button class="hero-learn-more">Learn More</button>
+        </div>
+      </div>
+    </div>
+
+    <div style="display: flex; justify-content: center; width: 100%">
+      <div class="mobile-nav-menu">
+        <div class="mobile-nav-menu-item">
+          <p>Product</p>
+          <div class="mobile-nav-menu-item-info">
+            <a href="#" target="_blank">Overview</a>
+            <a href="#" target="_blank">Pricing</a>
+            <a href="#" target="_blank">Marketplace</a>
+            <a href="#" target="_blank">Features</a>
+            <a href="#" target="_blank">Integrations</a>
+          </div>
+        </div>
+        <div class="mobile-nav-menu-item">
+          <p>Company</p>
+          <div class="mobile-nav-menu-item-info">
+            <a href="#" target="_blank">About</a>
+            <a href="#" target="_blank">Team</a>
+            <a href="#" target="_blank">Blog</a>
+            <a href="#" target="_blank">Careers</a>
+          </div>
+        </div>
+        <div class="mobile-nav-menu-item">
+          <p>Connect</p>
+          <div class="mobile-nav-menu-item-info">
+            <a href="#" target="_blank">Contact</a>
+            <a href="#" target="_blank">Newsletter</a>
+            <a href="#" target="_blank">LinkedIn</a>
+          </div>
+        </div>
+
+        <div class="mobile-nav-menu-bottom">
+          <button
+            class="navbar-right-login"
+            style="color: var(--very-dark-blue)"
+          >
+            Login
+          </button>
+          <button
+            class="navbar-right-signup"
+            style="background: var(--very-light-red); color: var(--white)"
+          >
+            Sign Up
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by <a href="#">Your Name Here</a>.
+    </div>
+
+    <div class="section-one-wrapper">
+      <section class="section-one" data-aos="fade-up" data-aos-duration="1000">
+        <h1>Designed for the future</h1>
+        <div class="section-one-right"></div>
+        <div class="section-one-left">
+          <div class="section-one-left-item">
+            <h1>Introducing an extensible editor</h1>
+            <p>
+              Blogr features an exceedingly intuitive interface which lets you
+              focus on one thing: creating content. The editor supports
+              management of multiple blogs and allows easy manipulation of
+              embeds such as images, videos, and Markdown. Extensibility with
+              plugins and themes provide easy ways to add functionality or
+              change the looks of a blog.
+            </p>
+          </div>
+          <div class="section-one-left-item">
+            <h1>Robust content management</h1>
+            <p>
+              Flexible content management enables users to easily move through
+              posts. Increase the usability of your blog by adding customized
+              categories, sections, format, or flow. With this functionality,
+              you’re in full control.
+            </p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="section-two" data-aos="fade-up" data-aos-duration="1000">
+      <div class="section-two-left">
+        <img
+          src="./images/illustration-phones.svg"
+          alt="phone illustration"
+          class="phone"
+        />
+      </div>
+      <div class="section-two-right">
+        <h4>State of the Art Infrastructure</h4>
+        <p>
+          With reliability and speed in mind, worldwide data centers provide the
+          backbone for ultra-fast connectivity. This ensures your site will load
+          instantly, no matter where your readers are, keeping your site
+          competitive.
+        </p>
+      </div>
+    </section>
+
+    <section class="section-three" data-aos="fade-up" data-aos-duration="1000">
+      <div class="section-three-wrapper">
+        <div class="section-three-img">
+          <img
+            src="./images/illustration-laptop-mobile.svg"
+            class="mobile"
+            alt="laptop illustration"
+          />
+          <img
+            src="./images/illustration-laptop-desktop.svg"
+            class="desktop"
+            alt="laptop illustration"
+          />
+        </div>
+        <div class="section-three-features">
+          <div class="section-three-feature">
+            <h2 class="section-three-title">Free, open, simple</h2>
+            <p class="section-three-desc">
+              Blogr is a free and open source application backed by a large
+              community of helpful developers. It supports features such as code
+              syntax highlighting, RSS feeds, social media integration,
+              third-party commenting tools, and works seamlessly with Google
+              Analytics. The architecture is clean and is relatively easy to
+              learn.
+            </p>
+          </div>
+          <div class="section-three-feature">
+            <h2 class="section-three-title">Powerful tooling</h2>
+            <p class="section-three-desc">
+              Batteries included. We built a simple and straightforward CLI tool
+              that makes customization and deployment a breeze, but capable of
+              producing even the most complicated sites.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="footer-wrapper">
+        <div class="footer-col-logo">
+          <h1>Blogr</h1>
+        </div>
+
+        <div class="footer-col">
+          <p class="footer-col-label">Product</p>
+          <a href="#" class="footer-col-link">Overview</a>
+          <a href="#" class="footer-col-link">Pricing</a>
+          <a href="#" class="footer-col-link">Marketplace</a>
+          <a href="#" class="footer-col-link">Features</a>
+          <a href="#" class="footer-col-link">Integrations</a>
+        </div>
+
+        <div class="footer-col">
+          <p class="footer-col-label">Company</p>
+          <a href="#" class="footer-col-link">About</a>
+          <a href="#" class="footer-col-link">Team</a>
+          <a href="#" class="footer-col-link">Blog</a>
+          <a href="#" class="footer-col-link">Careers</a>
+        </div>
+
+        <div class="footer-col">
+          <p class="footer-col-label">Connect</p>
+          <a href="#" class="footer-col-link">Contact</a>
+          <a href="#" class="footer-col-link">Newsletter</a>
+          <a href="#" class="footer-col-link">LinkedIn</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./src/script/index.js"></script>
+    <script src="./src/script/navbar.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

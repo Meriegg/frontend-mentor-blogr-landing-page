@@ -1,0 +1,66 @@
+.section-two {
+  margin-top: 450px;
+  padding: 150px;
+  width: 100%;
+  position: relative;
+  background: var(--very-dark-black-blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 60px;
+}
+
+.section-two > .section-two-right {
+  flex-basis: 50%;
+}
+
+.section-two > .section-two-right h4 {
+  font-size: 2.3rem;
+  color: hsl(0, 0%, 100%);
+  margin-bottom: 2rem;
+  font-family: "Overpass", sans-serif;
+  font-weight: 600;
+}
+
+.section-two > .section-two-right p {
+  font-size: 1.1rem;
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 300;
+  line-height: 1.9rem;
+}
+
+.section-two > .section-two-left {
+  position: relative;
+}
+
+.section-two .section-two-left .phone {
+  position: absolute;
+  left: -5rem;
+  top: -16rem;
+  z-index: 3;
+}
+
+@media screen and (max-width: 1245px) {
+  .section-two > .section-two-left > .phone {
+    transform: scale(0.7);
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .section-two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .section-two > .section-two-left > .phone {
+    width: 100%;
+    position: initial;
+  }
+
+  .section-two-right {
+    text-align: center;
+    width: 150%;
+  }
+}
