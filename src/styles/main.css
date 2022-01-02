@@ -20,3 +20,12 @@ html {
 * {
   box-sizing: border-box;
 }
+
+.attribution {
+  color: var(--white);
+  font-family: var(--font-overpass);
+}
+
+.attribution a {
+  color: var(--white);
+}
